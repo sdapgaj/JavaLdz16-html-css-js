@@ -9,6 +9,12 @@
     padding: 10px 0 0 0;
     border: black solid 3px;
     transition: top 1s, left 1s, box-shadow 1s;
+
+    /* Ukrywa */
+    /* display: none; */
+
+    /* Ukrywa ale zostawia wolne miejsce */
+    /* visibility: hidden; */
 }
 
 .content {
