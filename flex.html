@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flex box example</title>
+
+  <style>
+    .container {
+      display: flex;
+      flex-direction: row;
+    }
+    .content {
+      flex: 1 1 100px;
+    }
+    .selected {
+      flex: 5 5 100px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="content">Block 1</div>
+    <div class="selected">Block selected</div>
+    <div class="content">Block 2</div>
+    <div class="content">Block 3</div>
+  </div>
+</body>
+</html>
